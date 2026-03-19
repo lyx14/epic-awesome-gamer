@@ -144,3 +144,4 @@ def _apply_aihubmix_patch():
 
 # 执行补丁
 #_apply_aihubmix_patch()
+#_apply_aihubmix_patch()
