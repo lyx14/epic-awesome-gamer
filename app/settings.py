@@ -67,7 +67,7 @@ settings.ignore_request_questions = ["Please drag the crossing to complete the l
 # ==========================================
 # [方案一修复版] AiHubMix 终极补丁
 # ==========================================
-#def _apply_aihubmix_patch():
+def _apply_aihubmix_patch():
     if not settings.GEMINI_API_KEY:
         return
 
@@ -143,4 +143,4 @@ settings.ignore_request_questions = ["Please drag the crossing to complete the l
         logger.error(f"❌ 严重：AiHubMix 补丁加载完全失败! 原因: {e}")
 
 # 执行补丁
-_apply_aihubmix_patch()
+#_apply_aihubmix_patch()
